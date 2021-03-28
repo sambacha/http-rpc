@@ -40,3 +40,5 @@ export class HttpProvider extends HttpProviderBase {
   disconnect(): boolean;
   supportsSubscriptions(): boolean;
 }
+export = HttpProvider
+exports as namespace HttpProvider;
